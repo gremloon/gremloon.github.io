@@ -58,7 +58,7 @@
 }
 .unified_container .row .panel-default #api .localAccount .entry .buttons {
   margin: 15px 0 23px 0;
-  text-align: left;
+  text-align: center;
 }
 .unified_container .row .panel-default #api .localAccount .entry .buttons button {
   background-image: none;
