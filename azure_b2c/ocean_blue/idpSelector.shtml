@@ -38,7 +38,7 @@
             console.log( "ready!" );
         
             //Change Forget Password Text
-            $('#forgotPassword').html('Forgot your password?');
+            $('#forgotPassword').html('Reset password');
         
         
             //Handle Forget password click  (fixing ADB2C error)
