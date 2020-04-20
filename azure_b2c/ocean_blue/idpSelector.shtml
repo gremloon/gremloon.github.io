@@ -15,6 +15,24 @@
     <link rel="stylesheet" href="https://gremloon.github.io/azure_b2c/ocean_blue/css/unified.css"/>
     <link rel = "stylesheet" href="https://gremloon.github.io/azure_b2c/ocean_blue/css/idpselector.css"/>
 
+   
+
+</head>
+<body>
+    <div class="container  unified_container ">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img alt="gremloon" class="companyLogo" src="https://gremloon.github.io/azure_b2c/assets/images/gremloon_red.png">
+                        <div id="api">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         $(function() {
             console.log( "ready!" );
@@ -37,22 +55,5 @@
         
           });
     </script>
-
-</head>
-<body>
-    <div class="container  unified_container ">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <img alt="gremloon" class="companyLogo" src="https://gremloon.github.io/azure_b2c/assets/images/gremloon_red.png">
-                        <div id="api">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
 </body></html>
