@@ -1533,7 +1533,7 @@ select:focus {
     animation-timing-function: ease-out; }
   .service .service-box {
     text-align: center;
-    padding: 46px 20px 10px;
+    padding: 46px 20px;
     margin-bottom: 30px;
     background: #fff;
     border: 2px solid rgba(0, 0, 0, 0.06);
