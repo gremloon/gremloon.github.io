@@ -17,6 +17,7 @@ header,
 
 .navbar{
   background:#D90B36;
+  height: 50px;
 }
 
 .view, .mask {
