@@ -13,9 +13,10 @@
         <link rel="stylesheet" href="assets/css/mdb.min.css">
         <!-- stylesheet -->
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
         
     </head>
-    <body>
+    <body id="bootstrap-overrides">
 
         <header>
           <!--Navbar-->
@@ -56,10 +57,24 @@
           </div>
           <!-- Full Page Intro -->
         </header>
-        <!-- Main navigation -->
-        <!--Main Layout-->
-        </main>
-        <!--Main Layout-->
 
+        <!-- Cookie Consent -->
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <script>
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#343c66",
+              "text": "#cfcfe8"
+            },
+            "button": {
+              "background": "#f71559"
+            }
+          },
+          "theme": "classic",
+          "type": "opt-out"
+        });
+        </script>
+        <!-- End Cookie Consent -->
     </body>
 </html>
