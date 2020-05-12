@@ -89,7 +89,7 @@ h6 {
   content: "";
   position: absolute;
   top: 0;
-
+  right: -15px;
   /* Remove display: inline-block if not required to be on the same line as text etc */
   display: inline-block;
   background-color: black;
