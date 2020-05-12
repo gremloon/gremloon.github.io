@@ -119,3 +119,17 @@ h6 {
   50% { opacity: 0.0; }
   100% { opacity: 1.0; }
 }
+
+
+/* override bootstrap box-sizing */
+* {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
