@@ -79,8 +79,8 @@ h6 {
   display: inline-block;
   font-family: "Comfortaa", sans-serif;
   font-weight: 700;
-  line-height: 24px;
-  font-size: 24px;
+  line-height: 36px;
+  font-size: 36px;
   color: black;
   min-width: 360px;
 }
@@ -89,14 +89,14 @@ h6 {
   content: "";
   position: absolute;
   top: 0;
-  right: -15px;
+
   /* Remove display: inline-block if not required to be on the same line as text etc */
   display: inline-block;
   background-color: black;
   vertical-align: top;
   width: 10px;
   /* Set height to the line height of .blinks */
-  height: 24px;
+  height: 36px;
   /* 
   Animation paramaters:
   blink = animation-name, 
