@@ -74,3 +74,48 @@ h6 {
   text-align: center;
 }
 
+.blinks { 
+  position: relative;
+  display: inline-block;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 24px;
+  color: black;
+  min-width: 360px;
+}
+
+.blinks::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -15px;
+  /* Remove display: inline-block if not required to be on the same line as text etc */
+  display: inline-block;
+  background-color: black;
+  vertical-align: top;
+  width: 10px;
+  /* Set height to the line height of .blinks */
+  height: 24px;
+  /* 
+  Animation paramaters:
+  blink = animation-name, 
+  1s = animation-duration, 
+  step-end = animation-timing-function,
+  infinite = animation-iteration-count
+  */
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
