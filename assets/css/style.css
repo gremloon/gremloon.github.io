@@ -85,7 +85,7 @@ h6 {
   font-family: "Comfortaa", sans-serif;
   font-weight: 700;
   line-height: 36px;
-  font-size: 36px;
+  font-size: 72px;
   color: black;
   min-width: 36px;
 }
@@ -97,10 +97,10 @@ h6 {
   /* Remove display: inline-block if not required to be on the same line as text etc */
 
   background-color: black;
-  vertical-align: top;
-  width: 10px;
+  vertical-align: middle;
+  width: 5px;
   /* Set height to the line height of .blinks */
-  height: 36px;
+  height: 60px;
   /* 
   Animation paramaters:
   blink = animation-name, 
