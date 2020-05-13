@@ -20,10 +20,6 @@ header,
   height: 50px;
 }
 
-.view, .mask {
-  background-color: rgba(0,0,0,0.01);
-}
-
 h1 {
   letter-spacing: 8px;
 }
@@ -73,6 +69,15 @@ h6 {
   margin: 10%;
   text-align: center;
 }
+.title { 
+  position: relative;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  line-height: 36px;
+  font-size: 36px;
+  color: black;
+  min-width: 360px;
+}
 
 .blinks { 
   position: relative;
@@ -82,16 +87,15 @@ h6 {
   line-height: 36px;
   font-size: 36px;
   color: black;
-  min-width: 360px;
+  min-width: 36px;
 }
 
 .blinks::after {
   content: "";
   position: absolute;
   top: 0;
-  right: -15px;
   /* Remove display: inline-block if not required to be on the same line as text etc */
-  display: inline-block;
+
   background-color: black;
   vertical-align: top;
   width: 10px;
