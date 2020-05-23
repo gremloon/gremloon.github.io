@@ -1,15 +1,19 @@
 ---
 layout: default
-title: Blog
+title: gremloon´s blog
 ---
-<h1>Latest Posts</h1>
 
-<ul>
+<h1 class="link">gremloon´s blog</h1>
+<br />
+<div>
+  Some text about us engineering<br /><br />
   {% for post in site.posts %}
+  <ul>
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h4><a class="link" href="{{ post.url }}">{{ post.title }}</a></h4>
       {{ post.excerpt }}
     </li>
-  {% endfor %}
-</ul>
+  </ul>
 
+  {% endfor %}
+</div>
