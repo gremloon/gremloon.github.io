@@ -3,6 +3,7 @@ body,
 header,
 .view {
   height: 100%;
+  border: 0.5rem solid #d90b36;
 }
 
 @media (max-width: 740px) {
@@ -16,7 +17,8 @@ header,
 
 .navbar {
   background: #d90b36;
-  height: 50px;
+  height: 40px;
+  box-shadow: none;
 }
 
 h1 {
@@ -34,23 +36,47 @@ h4,
 h5,
 h6 {
   color: #242424;
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Roboto";
+}
+
+p {
+  font-family: "Roboto";
+}
+
+.link {
+  color: #d90b36;
+} /* CSS link color (red) */
+.link:hover {
+  color: #db3559;
+} /* CSS link hover (green) */
+
+.nav-link {
+  font-family: "Roboto";
+  color: #fff;
+}
+
+.container {
+  margin-top: 100px;
+  width: 650px;
 }
 
 .hr-light {
-  border-top: 3px solid #fff;
+  border-top: 3px solid #d90b36;
   width: 80px;
 }
 
 .flex-container > div > a {
   color: #242424;
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Roboto";
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
-.nav > li > a {
+ul {
+  padding-left: 1.2em;
+}
+​ .nav > li > a {
   color: white;
   font-weight: normal;
 }
@@ -70,7 +96,7 @@ h6 {
 }
 .title {
   position: relative;
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Roboto";
   font-weight: 700;
   line-height: 36px;
   font-size: 36px;
