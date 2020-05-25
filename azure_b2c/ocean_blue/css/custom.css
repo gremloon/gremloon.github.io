@@ -1,0 +1,21 @@
+.panel-body #api {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  animation: imageAnimation 0.5s linear infinite 0s;
+  -webkit-animation: formAnimation 0.5s linear infinite 0s;
+}
+@-webkit-keyframes formAnimation {
+  0% {
+    opacity: 0;
+    -webkit-animation-timing-function: ease-in;
+  }
+
+ 
+
+  100% {
+    opacity: 0
+  }
+}
