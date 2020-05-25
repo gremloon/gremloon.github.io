@@ -1,47 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>gremloon</title>
-        <!-- favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-        <!-- bootstrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/mdb.min.css">
-        <!-- stylesheet -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-        <!-- font -->
-        <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-        
-    </head>
-    <body>
-
-        <header>
-          <!--Navbar-->
-          <nav class="navbar navbar-expand-lg fixed-top navbar-light">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/images/color4/gremloon_logo.svg" alt="" style="width: 160px">
-                    </a>
-                </div>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="https://app.gremloon.io/login">Sign In</a></li>
-                </ul>
-            </div>
-          </nav>
-          <!-- Navbar -->
+---
+layout: page
+title : 'Gremloon Imprint'
+---
+ 
           <!-- Full Page Intro -->
-          <div class="container">
+          <div class="container content">
             <!-- Mask & flexbox options-->
             <div class="d-flex flex-container">
               <!-- Content -->
               <div class="privacy-policy" style="text-align: left;">
-                <h2>Gremloon Imprint</h2>
+                <h2>{{page.title}}</h2>
                 <p>
                     <span>Jürgen Stary</span><br>
                     <span>Rudolf-von-Gneist-Gasse 1</span><br>
@@ -57,24 +25,5 @@
             <!-- Mask & flexbox options-->
           </div>
           <!-- Full Page Intro -->
-        </header>
-        <!-- Cookie Consent -->
-        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-        <script>
-        window.cookieconsent.initialise({
-          "palette": {
-            "popup": {
-              "background": "#343c66",
-              "text": "#cfcfe8"
-            },
-            "button": {
-              "background": "#f71559"
-            }
-          },
-          "theme": "classic",
-          "type": "opt-out"
-        });
-        </script>
-        <!-- End Cookie Consent -->
-    </body>
-</html>
+
+ {%- include cookies.html -%}
