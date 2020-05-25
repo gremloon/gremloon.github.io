@@ -1,16 +1,20 @@
 .panel-body {
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-  -o-animation-delay: 1s;
-  -ms-animation-delay: 1s;
-  animation-delay: 1s;
-  animation: formAnimation 1s linear infinite 0s;
-  -webkit-animation: formAnimation 1s linear infinite 0s;
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  animation-delay: 3s;
+  animation: formAnimation 3s linear infinite 0s;
+  -webkit-animation: formAnimation 3s linear infinite 0s;
 }
 @keyframes formAnimation {
   0% {
     opacity: 0;
     -webkit-animation-timing-function: ease-in;
+  }
+
+  50% {
+    opacity: 0.2;
   }
 
   100% {
