@@ -10,10 +10,10 @@
     <link rel = "stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css"/>
 
    
-    <link rel="stylesheet" href="/azure_b2c/ocean_blue/css/assets.css"/>
-    <link rel="stylesheet" href="/azure_b2c/ocean_blue/css/common.css"/>
-    <link rel="stylesheet" href="/azure_b2c/ocean_blue/css/unified.css"/>
-    <link rel = "stylesheet" href="/azure_b2c/ocean_blue/css/idpselector.css"/>
+    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/assets.css"/>
+    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/common.css"/>
+    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/unified.css"/>
+    <link rel = "stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/idpselector.css"/>
 
    
 
@@ -24,7 +24,7 @@
             <div class="col-lg-6">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <img alt="gremloon" class="companyLogo" src="/azure_b2c/assets/images/gremloon_red.png">
+                        <img alt="gremloon" class="companyLogo" src="https://gremloon.io/azure_b2c/assets/images/gremloon_red.png">
                         <div id="api">
                         </div>
                     </div>
