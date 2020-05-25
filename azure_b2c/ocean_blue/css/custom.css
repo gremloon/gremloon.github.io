@@ -5,7 +5,7 @@
   -ms-animation-delay: 3s;
   animation-delay: 3s;
   animation: formAnimation 3s linear infinite 0s;
-  -webkit-animation: formAnimation 3s linear infinite 0s;
+  -webkit-animation: formAnimation;
 }
 @keyframes formAnimation {
   0% {
