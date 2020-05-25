@@ -5,11 +5,12 @@ layout: default
 <!-- Image and text -->
 
 <div class="container">
-  <h2 class="link">{{ page.title }}</h2>
-  <p style="text-align:right">
-    {{ page.date | date_to_string }} - {{ page.author }}
+  <div class="blog_title">{{ page.title }}</div>
+  <p class="blog_sub_text" style="text-align:left">
+  {{ page.author }} <br>
+    {{ page.date | date_to_string }} 
   </p>
-  <br></br>
+  <br>
 
-  <p>{{ content }}</p>
+  <p> <div class="blog_text">{{ content }}</div></p>
 </div>

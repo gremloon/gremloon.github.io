@@ -17,13 +17,15 @@ header,
 .navbar {
   background: #d90b36;
   height: 50px;
+  box-shadow: none;
 }
 .navbar a {
   padding: 8px;
   color: #fff;
+  font-weight: bold;
 }
 .navbar a:hover {
-  text-decoration: underline;
+  color: rgb(238, 229, 229);
 }
 
 h1 {
@@ -40,8 +42,35 @@ h3,
 h4,
 h5,
 h6 {
-  color: #242424;
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Roboto";
+  color: red;
+}
+
+.blog_text {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: black;
+}
+
+.blog_sub_text {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #292526;
+}
+
+.blog_title {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.blog_title a:hover {
+  color: #292526;
+}
+
+p {
+  font-family: "Roboto";
 }
 
 .hr-light {
