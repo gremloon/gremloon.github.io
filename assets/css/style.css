@@ -18,6 +18,13 @@ header,
   background: #d90b36;
   height: 50px;
 }
+.navbar a {
+  padding: 8px;
+  color: #fff;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
 
 h1 {
   letter-spacing: 8px;
@@ -58,6 +65,12 @@ h6 {
 .flex-container {
   display: flex;
   flex-direction: column;
+}
+.container {
+  width: 650px;
+}
+.content {
+  margin-top: 100px;
 }
 .privacy-policy {
   margin: 25%;

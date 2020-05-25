@@ -1,0 +1,7 @@
+
+- title: Home
+  link : '/'
+- title: Blog
+  link : '/blog'
+- title: Sign in
+  link : 'https://app.gremloon.io/login'
