@@ -15,7 +15,7 @@ header,
 }
 
 .navbar {
-  background: #d90b36;
+  background: #a8003b;
   height: 50px;
   box-shadow: none;
 }
@@ -43,7 +43,7 @@ h4,
 h5,
 h6 {
   font-family: "Roboto";
-  color: red;
+  color: #a8003b;
 }
 
 .blog_text {
