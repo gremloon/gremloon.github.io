@@ -7,19 +7,12 @@
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css"/>
     
     <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/assets.css"/>
     <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/common.css"/>
     <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/exception.css"/>
-    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/custom.css"/> -->
-    <style>
-        .container {
-            background: rgb(207, 76, 76);
-            width: 500px;
-            margin: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/custom.css"/>
 </head>
 <body>
     <div class="container  self_asserted_container ">
