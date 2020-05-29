@@ -1,25 +1,66 @@
 <!DOCTYPE html>
 <!-- saved from url=(0080)../assets/AzureBlue/selfAsserted.cshtml -->
-<html><head>
-    
+<html>
+
+<head>
+
     <title>Error</title>
 
-    
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css"/>
-    
-    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/assets.css"/>
-    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/common.css"/>
-    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/exception.css"/>
+    <!--   <link href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.5/css/bootstrap.min.css"/> -->
+
+    <style>
+        html {
+            -ms-text-size-adjust: 100%;
+        }
+
+        body {
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #333;
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        html[Attributes Style] {
+            -webkit-locale: "en";
+        }
+
+        .container {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        user agent stylesheet html {
+            display: block;
+        }
+
+        :after,
+        :before {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+    </style>
+    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/assets.css" />
+    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/common.css" />
+    <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/exception.css" />
 </head>
+
 <body>
     <div class="container  self_asserted_container ">
         <div class="row">
             <div class="col-lg-6">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <img alt="gremloon" class="companyLogo" src="https://gremloon.io/azure_b2c/assets/images/gremloon_red.png">
+                        <img alt="gremloon" class="companyLogo"
+                            src="https://gremloon.io/azure_b2c/assets/images/gremloon_red.png">
                         <div id="api">
                         </div>
                     </div>
@@ -29,4 +70,6 @@
     </div>
 
 
-</body></html>
+</body>
+
+</html>
