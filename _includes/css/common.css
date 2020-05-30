@@ -16,7 +16,7 @@ p {
 :focus, a:focus {
     outline: none;
 }
-input {
+.entry .entry-item input {
   width: 90% !important;
 }
 input, select {
