@@ -16,7 +16,7 @@ p {
 :focus, a:focus {
     outline: none;
 }
-.entry .entry-item input {
+.unified_container .row .panel-default #api .localAccount .entry .entry-item #logonIdentifier, .unified_container .row .panel-default #api .localAccount .entry .entry-item #password {
   width: 90% !important;
 }
 input, select {
