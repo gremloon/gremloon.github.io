@@ -57,7 +57,7 @@
   text-align: left;
 }
 .unified_container .row .panel-default #api .localAccount .entry .buttons {
-  margin: 15px 0 23px 0;
+  margin: 15px 0 48px 0;
   text-align: center;
 }
 .unified_container .row .panel-default #api .localAccount .entry .buttons button {
@@ -144,7 +144,7 @@
 }
 .unified_container .row .panel-default #api .localAccount .entry .entry-item .password-label #forgotPassword {
   position: absolute;
-  bottom: 90px;
+  bottom: 74px;
   clear: right;
   cursor: pointer;
   float: right;

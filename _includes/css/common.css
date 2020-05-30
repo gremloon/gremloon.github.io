@@ -16,6 +16,9 @@ p {
 :focus, a:focus {
     outline: none;
 }
+input {
+  width: 90% !important;
+}
 input, select {
     border: 1px solid white;
 }
