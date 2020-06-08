@@ -42,24 +42,24 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #a8003b;
 }
 
 .blog_text {
-  font-family: "Roboto";
+  ffont-family: "Roboto", sans-serif;
   font-size: 16px;
   color: black;
 }
 
 .blog_sub_text {
-  font-family: "Roboto";
+  ffont-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #292526;
 }
 
 .blog_title {
-  font-family: "Roboto";
+  ffont-family: "Roboto", sans-serif;
   font-size: 30px;
   color: black;
   font-weight: bold;
@@ -70,7 +70,7 @@ h6 {
 }
 
 p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 .hr-light {
