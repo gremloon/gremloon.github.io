@@ -1,28 +1,16 @@
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{site.title | page.title}}</title>
-  <!-- favicon -->
-  <link
-    rel="shortcut icon"
-    href="assets/images/favicon.ico"
-    type="image/x-icon"
-  />
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/mdb.min.css" />
-  <!-- stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link
-    rel="stylesheet"
-    type="text/css"
-    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
-  />
-  <!-- font -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Comfortaa"
-    rel="stylesheet"
-  />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	{% seo %} <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append:
+	site.github.build_revision | relative_url }}">
+	<title>{{site.title | page.title}}</title>
+	<!-- favicon -->
+	<link rel="shortcut icon" href=""{{ "assets/images/favicon.ico" | relative_url
+	}}" type="image/x-icon" />
+	<link
+		rel="stylesheet"
+		type="text/css"
+		href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+	/>
 </head>

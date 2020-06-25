@@ -1,2 +1,6 @@
+- title: About
+  link: /about
+- title: Blog
+  link: /blog
 - title: Sign in
-  link: "https://app.gremloon.io/login"
+  link: https://app.gremloon.io/login
