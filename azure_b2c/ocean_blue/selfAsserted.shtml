@@ -1,0 +1,40 @@
+---
+---
+<!DOCTYPE html>
+<!-- saved from url=(0080)../assets/AzureBlue/selfAsserted.cshtml -->
+<html><head><meta http-equiv="Content-Type" content="text/html">
+    
+    <title>Sign up</title>
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+{%- include css/bootstrap.css -%}
+ 
+{%- include css/assets.css -%}
+ 
+{%- include css/common.css -%}
+<!--     <link rel="stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/ css/unified.css             "/> -->
+{%- include css/unified.css -%}
+  <!--   <link rel = "stylesheet" href="https://gremloon.io/azure_b2c/ocean_blue/css/selfasserted.css"/> -->
+  {%- include css/selfasserted.css -%}
+   </style>
+
+</head>
+<body>
+    <div class="container  self_asserted_container ">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <img alt="gremloon" class="companyLogo" src="https://gremloon.io/azure_b2c/assets/images/gremloon_red.png">
+                        <div id="api">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+</body></html>
