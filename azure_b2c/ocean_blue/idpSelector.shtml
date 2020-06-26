@@ -1,63 +1,66 @@
 ---
 ---
+
 <!DOCTYPE html>
 <!-- saved from url=(0080)../assets/AzureBlue/selfAsserted.cshtml -->
-<html><head><meta http-equiv="Content-Type" content="text/html">
-    
-    <title>gremloon - login</title>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" />
 
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<style> 
-{  %- include css/bootstrap.css -%}
- 
-  {%- include css/assets.css -%}
- 
-  {%- include css/common.css -%}
-   
-  {%- include css/unified.css -%}
-   
-  {%- include css/idpselector.css -%}
-   </style>
+		<title>gremloon - login</title>
 
-</head>
-<body>
-    <div class="container  unified_container ">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <img alt="gremloon" class="companyLogo" src="https://gremloon.io/azure_b2c/assets/images/gremloon_red.png">
-                        <div id="api">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			{  %- include css/bootstrap.css -%}
 
-    <script>
-        $(function() {
-            console.log( "ready!" );
-        
-            //Change Forget Password Text
-            $('#forgotPassword').html('Reset password');
-        
-        
-            //Handle Forget password click  (fixing ADB2C error)
-            $( "#forgotPassword" ).click(function(e) {
-                e.preventDefault();
-        
-        
-                var oldUrl = window.location.href;
-                var newUrl = oldUrl.replace('B2C_1_SigninGoogle','B2C_1_passwordreset1');
-        
-                window.location.href = newUrl;
-        
-            });
-        
-          });
-    </script>
+			  {%- include css/assets.css -%}
 
-</body></html>
+			  {%- include css/common.css -%}
+
+			  {%- include css/unified.css -%}
+
+			  {%- include css/idpselector.css -%}
+		</style>
+	</head>
+	<body>
+		<div class="container unified_container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<img
+								alt="gremloon"
+								class="companyLogo"
+								src="https://gremloon.com/azure_b2c/assets/images/gremloon_red.png"
+							/>
+							<div id="api"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			$(function () {
+				console.log('ready!');
+
+				//Change Forget Password Text
+				$('#forgotPassword').html('Reset password');
+
+				//Handle Forget password click  (fixing ADB2C error)
+				$('#forgotPassword').click(function (e) {
+					e.preventDefault();
+
+					var oldUrl = window.location.href;
+					var newUrl = oldUrl.replace(
+						'B2C_1_SigninGoogle',
+						'B2C_1_passwordreset1'
+					);
+
+					window.location.href = newUrl;
+				});
+			});
+		</script>
+	</body>
+</html>
