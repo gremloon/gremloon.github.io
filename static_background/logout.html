@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>gremloon - logged out</title>
+		<link rel="stylesheet" href="/assets/css/style.css?v=" />
+		<link
+			rel="shortcut icon"
+			href="/assets/images/favicon.ico"
+			type="image/x-icon"
+		/>
+	</head>
+	<style>
+		.logout-background {
+			background-image: url('/assets/images/gremloon_background.jpg');
+			background-size: cover;
+			min-height: 100vh;
+			padding: 2vw;
+			position: relative;
+		}
+
+		.headline {
+			font-size: 11vmin;
+			color: white;
+			text-shadow: 1px 1px 1px #000;
+			margin-top: 1em;
+			margin-left: 0.5em;
+			margin-right: 0.5em;
+			position: relative;
+			z-index: 2;
+		}
+
+		@media (orientation: portrait) and (min-width: 450px),
+			(orientation: landscape) and (min-height: 450px) {
+			.headline {
+				font-size: 3em;
+			}
+		}
+
+		@media (min-width: 1024px) {
+			.headline {
+				font-size: 3.7em;
+			}
+		}
+
+		.gremloon {
+			margin-left: auto;
+			margin-top: auto;
+			height: auto;
+			width: 60vmin;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+	</style>
+	<body class="logout-background w-100">
+		<p class="headline fancy-font">
+			We hope you had a productive session, see you soon!
+		</p>
+		<img
+			src="/assets/images/gremloon_logging_out.png"
+			alt="Gremloon"
+			class="gremloon"
+		/>
+	</body>
+</html>
