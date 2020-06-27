@@ -40,6 +40,28 @@
             </div>
         </div>
     </div>
+        <script>
+        $(function() {
+            console.log( "ready!" );
+        
+            //Change Forget Password Text
+            $('#forgotPassword').html('Reset password');
+        
+        
+            //Handle Forget password click  (fixing ADB2C error)
+            $( "#forgotPassword" ).click(function(e) {
+                e.preventDefault();
+        
+        
+                var oldUrl = window.location.href;
+                var newUrl = oldUrl.replace('B2C_1_SigninGoogle','B2C_1_passwordreset1');
+        
+                window.location.href = newUrl;
+        
+            });
+        
+          });
+    </script>
 
 
 </body></html>
