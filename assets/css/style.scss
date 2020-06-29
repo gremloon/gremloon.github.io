@@ -45,6 +45,21 @@ h6 {
 	}
 }
 
+.defaulttext {
+	font-family: Roboto, sans-serif;
+}
+
+.center {
+	text-align:center;
+  }
+
+.centerhalf {
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
 #nav-bar {
 	background-color: var(--primary-highlight-1);
 }
@@ -202,7 +217,7 @@ h6 {
 }
 
 .front-page-footer {
-	height: 8em;
+	height: 4em;
 	background-color: var(--dark-background-1);
 	color: var(--foreground-color-light-1);
 	a {
