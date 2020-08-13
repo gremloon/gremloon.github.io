@@ -16,6 +16,7 @@
 }
 
 .fancy-font {
+	color: Black;
 	font-family: 'Comfortaa', sans-serif;
 }
 
@@ -87,6 +88,26 @@ h6 {
 
 #nav-bar .navbar-nav > .nav-item:first-child {
 	margin-top: 0.5em;
+}
+
+.grid-container {
+	background-color: White;
+	padding-bottom: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	gap: 11px 11px;
+	grid-template-areas: "LeftBorder Header Header Header Header RightBorder" "LeftBorder . . . . RightBorder" "LeftBorder . . . . RightBorder" "LeftBorder . . . . RightBorder" "LeftBorder . . . . RightBorder";
+  }
+  
+  .Header { grid-area: Header; padding-top: 15px;}
+  
+  .LeftBorder { grid-area: LeftBorder; }
+  
+  .RightBorder { grid-area: RightBorder; }
+
+.logos-grid__item {
+    max-width: 67%;
 }
 
 @include media-breakpoint-up(sm) {
